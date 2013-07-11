@@ -1,4 +1,8 @@
-aws2pgsql.py
-============
+AddressAccess2pgsql.py
+======================
 
-AWS csv to PostGreSQL/PostGIS
+Load AWS adresse fra csv til PostGreSQL. Kræver PostGIS 2.
+
+Sådan bruges scriptet:
+
+python AddressAccess2pgsql.py AddressAccess2pgsql.csv [tabelnavn] | psql [database]
